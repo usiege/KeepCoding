@@ -1,0 +1,106 @@
+[
+    {
+        "questionid": 1736469,
+        "areaname": "上海市",
+        "areacode": "021",
+        "yearname": 2017,
+        "departmentgradeid": "15",
+        "difficultyid": 1,
+        "knowledgepointid": 110742,
+        "questiontypename": "选择题",
+        "questiontypeid": 58,
+        "qescont": null,
+        "quescontimg": null,
+        "quescontimgHeight": [],
+        "quescontimgWidth": [],
+        "quescontsound": null,
+        "videoUrl": null,
+        "knowledgepointname": [
+            "加法横式（小低）"
+        ],
+        "optionTag": null,
+        "useMathjax": null,
+        "videoId": null,
+        "departmentgradename": "小学一年级",
+        "orderid": 1,
+        "interactiveJson": {
+            "nextURL":"/youxiao/tiyanke/Gk/lamp/index.html",
+            "words":
+            [
+                {
+                    "word":"farm",
+                    "knownletters":"fa",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/farm.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/farm.mp3"
+                },
+                {
+                    "word":"animals",
+                    "knownletters":"anima",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/animals.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/animals.mp3"
+                },
+                {
+                    "word":"pig",
+                    "knownletters":"p",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/pig.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/pig.mp3"
+                },
+                {
+                    "word":"slow",
+                    "knownletters":"sl",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/slow.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/slow.mp3"
+                },
+                {
+                    "word":"horse",
+                    "knownletters":"hor",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/horse.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/horse.mp3"
+                },
+                {
+                    "word":"duck",
+                    "knownletters":"du",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/duck.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/duck.mp3"
+                },
+                {
+                    "word":"fast",
+                    "knownletters":"fa",
+                    "flighttime":25,
+                    "wordimg":"/resources/res/yx_aliens/show/fast.png",
+                    "wordsound":"/resources/res/yx_aliens/audio/fast.mp3"
+                }
+            ]
+        },
+        "interactiveUrl": null,
+        "sudokuNum": null,
+        "areaid": null,
+        "yearId": null,
+        "subjectid": null,
+        "quesCategoryId": null,
+        "quescategoryname": null,
+        "userId": null,
+        "username": null,
+        "provenance": null,
+        "convertQescont": null,
+        "belongPaperIds": null,
+        "state": null,
+        "downloadCount": null,
+        "collectionCount": null,
+        "createTime": null,
+        "uploadTime": null,
+        "updatetime": null,
+        "groupCount": null,
+        "examCount": null,
+        "handoutQuestionTag": null,
+        "handoutQuestionTagName": null,
+        "questions": null,
+        "id": null
+    }
+]

@@ -74,10 +74,33 @@
 //    [self drawPicture:contextRef];
     
     /**********结束画图*********/
-
-    
-    
+    [self drawCorner];
 }
+
+- (void)drawCorner {
+    /*画圆角矩形*/
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGContextSetRGBStrokeColor(ctx,0,1,0,1);//设置线的颜色
+    CGContextSetRGBFillColor(ctx,1,0.5,1,1);//设置填充颜色
+
+    CGFloat width = 1;
+    CGFloat height = 40;
+    CGFloat radius = 20;
+    
+    CGContextSetLineWidth(ctx, width);//设置线的宽度
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    width = width/2;
+    CGContextMoveToPoint(context, 100, 200);  // 开始坐标右边开始
+    CGContextAddLineToPoint(context, 100, 200+40);
+    CGContextAddLineToPoint(context, 100-30, 200+40);
+    CGContextAddArc(context, 100-30, 200+20, 20, M_PI/2*3.0, M_PI / 2.0, 1);
+    CGContextAddLineToPoint(context, 100-30, 200);
+    
+    CGContextClosePath(context);
+    CGContextDrawPath(context, kCGPathFillStroke); //根据坐标绘制路径
+}
+
+
 
 - (void)drawCircle:(CGContextRef)contextRef
 {
